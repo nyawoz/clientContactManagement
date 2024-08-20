@@ -1,0 +1,102 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+@model List<ClientContactManagementSystem.web.Models.Entities.Contact>
+
+
+<div class="bg-secondary bg-opacity-10 py-2">
+    <div class="container">
+        <h1>Contact</h1>
+    </div>
+</div>
+
+<div class="container">
+    @if (Model == null || !Model.Any())
+    {
+        <h1>
+            No Contact(s) found
+        </h1>
+    }
+    else
+    {
+        <table class="table table-bordered border-primary">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Code</th>
+                    <th>Email Address</th>
+                    <th>No of linked Contact</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var contact in Model)
+                {
+                    <tr>
+                        <td>@contact.ContactSurname <br /> @contact.ContactName </td>
+                        <td>@contact.ContactId</td>
+                        <td>@contact.ContactEmail</td>
+                        <td>
+                            <input type="checkbox" class="form-check-input" id="linkcontact" data-bs-toggle="modal" data-bs-target="#exampleModal" />
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">UnLink of Contact</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="container">
+                    @if (Model == null || !Model.Any())
+                    {
+                        <td colspan="3">
+                            <h1>
+                                No Contact(s) found
+                            </h1>
+                        </td>
+                    }
+                    else
+                    {
+                        <table class="table table-bordered border-primary">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Code</th>
+                                    <th>link Contact</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var contact in Model)
+                                {
+                                    <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td>
+                                            <input type="checkbox" class="form-check-input" id="linkcontact" />
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    }
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

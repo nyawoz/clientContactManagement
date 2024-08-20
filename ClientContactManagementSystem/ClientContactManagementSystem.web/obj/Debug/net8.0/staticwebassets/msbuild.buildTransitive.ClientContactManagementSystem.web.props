@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\ClientContactManagementSystem.web.props" />
+</Project>
