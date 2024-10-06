@@ -28,14 +28,14 @@
                     <th>Name</th>
                     <th>Code</th>
                     <th>Email Address</th>
-                    <th>No of linked Contact</th>
+                    <th>No of linked Client</th>
                 </tr>
             </thead>
             <tbody>
                 @foreach (var contact in Model)
                 {
                     <tr>
-                        <td>@contact.ContactSurname <br /> @contact.ContactName </td>
+                        <td>@contact.ContactSurname</td>
                         <td>@contact.ContactId</td>
                         <td>@contact.ContactEmail</td>
                         <td>
@@ -78,15 +78,16 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                @foreach (var contact in Model)
+                                @foreach (var clients in Model)
                                 {
                                     <tr>
-                                        <td></td>
-                                        <td></td>
                                         <td>
                                             <input type="checkbox" class="form-check-input" id="linkcontact" />
                                         </td>
-                                    </tr>
+                                        <td>@clients.ContactName</td>
+                                        <td>@clients.ContactSurname</td>
+                                        <td>@clients.ContactEmail</td>
+                                    </tr>   
                                 }
                             </tbody>
                         </table>

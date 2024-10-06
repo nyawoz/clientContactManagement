@@ -2,6 +2,19 @@
 // for details on configuring this project to bundle and minify static web assets.
 
 // Write your JavaScript code.
+
+//Getting Client Code when button is Clicked
+
+var clientCode;
+var selectedContactsCount;
+$(document).ready(function () {
+    $('.btn-get-info').on('click', function () {
+        var row = $(this).closest('tr');
+        clientCode = row.find('td:eq(1)').text(); // Client Code
+    });
+});
+
+// modal pop up
 document.getElementById('linkcontactCheckbox').addEventListener('change', function () {
     var modal = new bootstrap.Modal(document.getElementById('linkcontactModal'));
     if (this.checked) {
@@ -15,7 +28,7 @@ function LinkingContacttoClient() {
     var checkboxes = document.querySelectorAll('.form-check-input');
 
     var selectedInfo = [];
-    var selectedContactsCount = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
+    selectedContactsCount = Array.from(checkboxes).filter(checkbox => checkbox.checked).length;
     checkboxes.forEach(function (checkbox) {
         if (checkbox.checked) {
             var row = checkbox.closest('tr');
@@ -29,38 +42,28 @@ function LinkingContacttoClient() {
             var email = emailCell.textContent.trim();
 
             selectedInfo.push({ name: name, email: email });
-            
+
         }
     });
 
+    var statusValue = selectedContactsCount;
+    var clientId = clientCode;
+
     if (selectedInfo.length > 0) {
-        var message = "Selected Contacts:\n";
-        selectedInfo.forEach(function (info) {
-            message += "Name: " + info.name + ", Email: " + info.email + "\n";
+        // Update Number of Linked Contact
+        $.ajax({
+            url: '/ClientContact/updatenumberofLinkingContact', // The URL of your controller action
+            type: 'POST',
+            data: { code: clientId, status: statusValue },
+            success: function (response) {
+                alert('Status updated successfully!');
+            },
+            error: function (xhr, status, error) {
+                alert('Error updating number of linking contacts');
+            }
         });
         window.alert(message + selectedContactsCount);
     } else {
         window.alert("No rows selected.");
     }
-
-    //    if (selectedInfo.length > 0) {
-    //        // Send the data to the server via AJAX
-    //        $.ajax({
-    //            url: '@Url.Action("InsertSelectedContacts", "ClientContactController")',
-    //            type: 'POST',
-    //            data: JSON.stringify(selectedContactsCount),
-    //            contentType: 'application/json',
-    //            success: function (response) {
-    //                alert("Data successfully inserted!");
-    //            },
-    //            error: function (error) {
-    //                alert("An error occurred: " + error.responseText);
-    //            }
-    //        });
-    //    } else {
-    //        alert("No rows selected.");
-    //    }
-    //}
 }
-
-

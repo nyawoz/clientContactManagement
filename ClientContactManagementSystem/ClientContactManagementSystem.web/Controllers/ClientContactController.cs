@@ -85,14 +85,13 @@ namespace ClientContactManagementSystem.web.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> DisplayClients()
-        {
-            //var clients = await dbContext.tblClients.ToListAsync();
+        //public async Task<IActionResult> DisplayClients()
+        //{
 
-            var clients = await dbContext.tblClients.OrderBy(c => c.ClientName).ToListAsync();
+        //    var clients = await dbContext.tblClients.OrderBy(c => c.ClientName).ToListAsync();
 
-            return View(clients);
-        }
+        //    return View(clients);
+        //}
 
         [HttpGet]
         public IActionResult NewContact() { return View(); }
@@ -129,6 +128,31 @@ namespace ClientContactManagementSystem.web.Controllers
         }
 
 
+        [HttpPost]
+        public async Task<IActionResult> updatenumberofLinkingContact(String code, int status)
+        {
+            try
+            {
+                // Find the client by id
+                var client = await dbContext.tblClients.FirstOrDefaultAsync(c => c.ClientCode == code);
+                if (client == null)
+                {
+                    return NotFound();
+                }
 
+                // Update the status field
+                client.NumberOfLinkedContact = status;
+
+                // Save changes to the database
+                await dbContext.SaveChangesAsync();
+
+                return Ok();
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
     }
 }
+

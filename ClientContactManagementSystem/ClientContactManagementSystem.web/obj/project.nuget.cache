@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRUw1REjsbA=",
+  "dgSpecHash": "bBAXsEVt0Ek=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
+  "projectFilePath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

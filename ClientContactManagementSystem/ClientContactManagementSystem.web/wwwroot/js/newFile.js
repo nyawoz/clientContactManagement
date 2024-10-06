@@ -1,21 +1,8 @@
-﻿$(document).ready(function() {
-    $('#addnewclientform').on('submit', function(e) {
-        e.preventDefault();
-        var formData = $(this).serialize();
-        $.ajax({
-            url: '/ClientContact/AddNewClient',
-            type: 'POST',
-            data: formData,
-            success: function(response) {
+﻿$(document).ready(function () {
+    alert("jQuery is working!");
 
-                alert("Data successfully inserted!");
-
-                $('#addnewclientform').trigger("reset");
-
-            },
-            error: function(error) {
-                alert("An error occurred: " + error.responseText);
-            }
-        });
+    // Test button click
+    $('.btn-get-info').on('click', function () {
+        alert("Button clicked!");
     });
 });

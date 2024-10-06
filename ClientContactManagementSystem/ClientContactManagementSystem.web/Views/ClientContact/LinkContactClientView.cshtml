@@ -47,7 +47,7 @@
                             <td>@client.ClientCode</td>
                             <td> @client.NumberOfLinkedContact</td>
                             <td>
-                                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#LinkContact">
+                                <button type="button" class="btn btn-primary btn-get-info" data-bs-toggle="modal" data-bs-target="#LinkContact">
                                     Link Contact
                                 </button>
                             </td>
@@ -88,29 +88,26 @@
                                 </tr>
                             </thead>
                             <tbody>
-         
-                                    @foreach (var contact in Model.Contacts)
-                                    {
-                                        <tr>
-                                            <td>
-                                                <input type="checkbox" class="form-check-input" id="linkcontact" />
-                                            </td>
-                                            <td>@contact.ContactSurname <br /> @contact.ContactName </td>
-                                            <td>@contact.ContactEmail</td>
-                                        </tr>
-                                    }
-                                
+
+                                @foreach (var contact in Model.Contacts)
+                                {
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" class="form-check-input" id="linkcontact" />
+                                        </td>
+                                        <td>@contact.ContactSurname <br /> @contact.ContactName </td>
+                                        <td>@contact.ContactEmail</td>
+                                    </tr>
+                                }
+
                             </tbody>
                         </table>
                     }
                 </div>
-            
-            
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-primary" onclick="LinkingContacttoClient()">Save changes</button>
-
             </div>
 
         </div>

@@ -1,14 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\wwwroot\\js\\newfile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\wwwroot\\js\\newfile.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clone\\clientcontactmanagement\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clone\\clientcontactmanagement\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\controllers\\clientcontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\controllers\\clientcontactcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clone\\clientcontactmanagement\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|c:\\users\\nyawo.desktop-a3dpj12\\source\\repos\\clone\\clientcontactmanagement\\clientcontactmanagementsystem\\clientcontactmanagementsystem.web\\views\\clientcontact\\linkcontactclientview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{226B0456-D426-4F92-920B-340E19FF93A4}|ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj|solutionrelative:clientcontactmanagementsystem.web\\views\\clientcontact\\linkcontactclientview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "newFile.js",
-              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\wwwroot\\js\\newFile.js",
-              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\wwwroot\\js\\newFile.js",
-              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\wwwroot\\js\\newFile.js",
-              "RelativeToolTip": "ClientContactManagementSystem.web\\wwwroot\\js\\newFile.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "ClientContactManagementSystem.web\\wwwroot\\js\\site.js",
+              "ViewState": "AQIAAAkAAAAwAQAAAIA5wA8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-08-19T19:13:14.38Z",
+              "WhenOpened": "2024-09-01T11:15:19.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LinkContactClientView.cshtml",
+              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\ClientContact\\LinkContactClientView.cshtml",
+              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\Views\\ClientContact\\LinkContactClientView.cshtml",
+              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\ClientContact\\LinkContactClientView.cshtml",
+              "RelativeToolTip": "ClientContactManagementSystem.web\\Views\\ClientContact\\LinkContactClientView.cshtml",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAgwFcAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T14:46:53.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAwAAAAAaWZmZmYkwCgAAACQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-08-24T14:40:13.291Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "ClientContactManagementSystem.web\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAYAAACAzczMzMwnwB0AAACAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-08-19T19:04:31.888Z"
+              "Title": "ClientContactController.cs",
+              "DocumentMoniker": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Controllers\\ClientContactController.cs",
+              "RelativeDocumentMoniker": "ClientContactManagementSystem.web\\Controllers\\ClientContactController.cs",
+              "ToolTip": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\Controllers\\ClientContactController.cs",
+              "RelativeToolTip": "ClientContactManagementSystem.web\\Controllers\\ClientContactController.cs",
+              "ViewState": "AQIAAHEAAAAAqJmZmZkowGIAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T14:39:09.856Z",
+              "EditorCaption": ""
             }
           ]
         }

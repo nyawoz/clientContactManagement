@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj": {}
+    "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj": {
+    "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
+        "projectUniqueName": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
         "projectName": "ClientContactManagementSystem.web",
-        "projectPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
+        "projectPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\ClientContactManagementSystem.web.csproj",
         "packagesPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\obj\\",
+        "outputPath": "C:\\Users\\nyawo.DESKTOP-A3DPJ12\\source\\repos\\clone\\clientContactManagement\\ClientContactManagementSystem\\ClientContactManagementSystem.web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

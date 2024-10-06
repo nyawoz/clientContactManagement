@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ClientContactManagementSystem.web")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5585c0a493c8115fc23774d87a247308f6372d9a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ClientContactManagementSystem.web")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ClientContactManagementSystem.web")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
